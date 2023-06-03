@@ -1,0 +1,20 @@
+.banner-product {
+  .slick-dots  {
+    bottom: 25px !important;
+    text-align: right;
+    padding-right: 20px;
+  }
+  .slick-dots li {
+    background: #c8c7cc;
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    border-radius: 0 !important;
+  }
+  .slick-dots li.slick-active {
+    background-color: #fff;
+  }
+  .slick-dots li button {
+    display: none;
+  }
+}

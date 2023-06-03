@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333f48;
+  background-color: #f1f2f3;
+}
+
+// .slick-initialized {
+//   overflow-x: hidden;
+// }
+
+.slick-slide div {
+  outline: none;
+}
+
+input[type='radio'] {
+  accent-color: blue;
+}

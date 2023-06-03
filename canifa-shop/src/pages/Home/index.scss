@@ -1,0 +1,49 @@
+.slogan{
+  transform: translateY(-100%);
+  transition: transform 0.5s ease ;
+}
+.slogan.active {
+  transform: translateY(0);
+}
+
+
+.a-home-product {
+    /* the slides */
+  .slick-slide > div{
+    margin: 0 8px;
+  }
+  .slick-list {
+    margin: 0 -8px;
+  }
+  .slick-prev {
+    right: auto;
+    left: 20px;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    z-index: 100;
+    margin-top: -16px !important;
+  }
+  .slick-next, .slick-prev {
+    z-index: 100;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/prev.svg");
+    top: 40%;
+    right: 20px;
+    z-index: 10;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .slick-next:before, .slick-prev:before {
+    opacity: 0;
+  }
+}
+
+.button-send {
+  background-image: url("../../assets/images/favorite3.svg");
+}

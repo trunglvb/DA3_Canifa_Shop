@@ -1,0 +1,30 @@
+.minicart-size:before {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  line-height: 16px;
+  color: #d2d1d4;
+  font-weight: 500;
+}
+
+.cart-list::-webkit-scrollbar-track
+{
+	border-radius: 8px;
+}
+
+.cart-list::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.cart-list::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0 0 6px #F5F5F5;
+	background-color: #e8dfdf;
+}
